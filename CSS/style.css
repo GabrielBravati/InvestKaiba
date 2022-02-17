@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(150deg, #00bdda 70%, #008ea4 40%);
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding:24px;
+}
+
+.header__img{
+    height:8%;
+    width:8%;
+}
+
+.header__menu{
+    display: flex;
+    gap:36px;
+}
+
+.menu__item{
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 5px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+nav ul li{
+    margin: 0 5px;
+  }
+
+nav ul li a{
+    font-family:'Open Sans', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 60px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover{
+    color: white;
+    background: black;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+
+}
+.conteudo__main{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo__texto{
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.titulo{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    color: antiquewhite;
+    font-size: 64px;
+}
+
+.texto{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+i{
+    align-items:center;
+    left:30px;
+}
+
+#botoes{
+    display:flex;
+    flex-direction:row;
+    gap:36px;
+
+}
+ .botao__apple{
+    height:70px;
+    width:300px;
+    display:inline-block;
+    background-color:white;
+    transition-duration: 0.4s;
+    color:black;
+    font-family: "Opens Sans", sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+    text-decoration:none;
+    outline: none;
+    border:none;
+    border-radius:15px;
+    cursor: pointer;
+    font-family: "Opens Sans", sans-serif;
+    font-size: 24px;
+}
+.botao__apple:hover{
+
+    background-color:black;
+    color:white;
+}
+.botao__apple:active{
+    background-color:black;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+
+.botao__android{
+    height:70px;
+    width:300px;
+    display:inline-block;
+    background-color: white;
+    transition-duration: 0.4s;
+    color:black;
+    font-family: "Opens Sans", sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+    text-decoration:none;
+    outline: none;
+    border:none;
+    border-radius:15px;
+    cursor: pointer;
+    font-family: "Opens Sans", sans-serif;
+    font-size: 24px;
+}
+
+.botao__android:hover{
+    background-color:black;
+    color:white;
+}
+
+.botao__android:active{
+    background-color:black;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}
+.smartphone{
+    display:flex;
+    height:100%;
+    padding-top: 48px;
+    padding-left:48px;
+}
